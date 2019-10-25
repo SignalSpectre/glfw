@@ -62,6 +62,7 @@ project "GLFW"
 		defines 
 		{ 
 			"_GLFW_WIN32",
+			"GLFW_INCLUDE_ES3",
 			"_CRT_SECURE_NO_WARNINGS"
 		}
 
