@@ -39,7 +39,8 @@ project "GLFW"
 
 		defines
 		{
-			"_GLFW_X11"
+			"_GLFW_X11",
+			"GLFW_INCLUDE_NONE"
 		}
 
 	filter "system:windows"
@@ -62,7 +63,6 @@ project "GLFW"
 		defines 
 		{ 
 			"_GLFW_WIN32",
-			"GLFW_INCLUDE_ES3",
 			"_CRT_SECURE_NO_WARNINGS"
 		}
 
